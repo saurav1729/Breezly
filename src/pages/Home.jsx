@@ -496,7 +496,7 @@ function HomePage() {
                                         animate={{ opacity: 1, y: 0 }}
                                         transition={{ duration: 0.5, delay: 0.6 }}
                                         className={`rounded-lg overflow-hidden backdrop-blur-md ${darkMode ? "bg-gray-900/30 border border-gray-800/50" : "bg-white/30 border border-gray-200/50"
-                                            } py-2 mt-[-20px] shadow-lg text-center`}
+                                            } py-2  shadow-lg text-center`}
                                     >
                                         <Button
                                             onClick={goToForecast}

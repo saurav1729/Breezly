@@ -89,10 +89,10 @@ export function WeatherCard({ weather, onRefresh, isFallback }) {
 
   return (
     <Card
-      className={`overflow-hidden mt-[-20px]  bg-gradient-to-r ${getBackgroundStyle()} transform transition-all duration-500 ${animatedIn ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"}`}
+      className={`overflow-hidden  min-h-[55vh] bg-gradient-to-r ${getBackgroundStyle()} transform transition-all duration-500 ${animatedIn ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"}`}
     >
       <WeatherBackground/>
-      <CardHeader className={`bg-gradient-to-r ${getBackgroundStyle()} text-white relative overflow-hidden`}>
+      <CardHeader className={` text-white relative overflow-hidden`}>
         <div className="absolute inset-0 z-0">
           <WeatherAnimation weatherType={weatherType} timeOfDay={timeOfDay} />
         </div>
