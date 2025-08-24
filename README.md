@@ -1,10 +1,3 @@
-You're very close! The content is great, but there are **some formatting issues** and **extra markdown placeholders** like “Copy” and “Edit” that shouldn't be in a `README.md`. Let me correct and clean up everything for you.
-
----
-
-### ✅ Here's the **correct and polished version** of your `README.md`:
-
-```markdown
 # 🌤️ Breezly – Weather Forecast App
 
 **Breezly** is a beautiful and responsive weather forecasting web application built with **React** and **Tailwind CSS**. It provides real-time weather updates, 5-day forecasts, and detailed hourly trends through intuitive animated charts. Whether you're checking the weather for your commute or planning a trip, Breezly makes it easy to stay informed. It also supports a dynamic theme system, dark/light mode, and stores recent search history for a seamless user experience.
@@ -54,10 +47,19 @@ You're very close! The content is great, but there are **some formatting issues*
 
 ---
 
-## 🖼️ Preview
+## 🖼️ Screenshots & Preview
 
-![Screenshot - Home Page](./src/assets/1.png)  
-![Screenshot - Forecast Page](./src/assets/pic5.png)
+![Home Page](./src/assets/1.png)  
+_Real-time weather and search bar_
+
+![Forecast Page](./src/assets/pic5.png)  
+_5-day forecast with hourly charts_
+
+![Dark Mode](./src/assets/pic6.png)  
+_Dark mode interface_
+
+![Dynamic Background](./src/assets/pic7.png)  
+_Background changes according to weather and time_
 
 ---
 
@@ -70,48 +72,10 @@ You can deploy the app on Vercel, Netlify, or GitHub Pages.
 
 ## 📦 Installation & Setup
 
-Follow the steps below to run Breezly locally on your machine:
+Follow these steps to run Breezly locally:
 
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/sauravjha1111/breezly-weather-app.git
 cd breezly-weather-app
-```
-
-### 2. Install Dependencies
-
-```bash
-npm install
-```
-
-### 3. Create Environment Variables
-
-To fetch data from the OpenWeatherMap API, you'll need an API key.
-
-Create a file named `.env.local` in the root directory of the project and add the following line:
-
-```env
-VITE_WEATHER_API_KEY=your_openweathermap_api_key
-```
-
-💡 You can get a free API key from [OpenWeatherMap](https://openweathermap.org/api)
-
-✅ Ensure `.env.local` is listed in your `.gitignore` to prevent leaking the API key.
-
-### 4. Start the Development Server
-
-```bash
-npm run dev
-```
-
-Visit [http://localhost:5173](http://localhost:5173) in your browser to view the app.
-
----
-
-
-
-## 🙋‍♂️ Author
-
-Made with ❤️ by **Saurav Jha**
-
